@@ -1,0 +1,11 @@
+{
+  "app": "mvn -q exec:java",
+  "context": {
+    "inputImageBucketName": "input-bucket-221082200102-ap-southeast-2-an",
+    "architectureDocBucketName": "output-bucket-221082200102-ap-southeast-2-an",
+    "generatedCodeBucketName": "generated-cdk-code-221082200102-ap-southeast-2-an",
+
+    "githubSecretName": "github/pr-bot-token",
+    "stateMachineName": "new-infra-creation-workflow"
+  }
+}
